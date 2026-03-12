@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "drf"
+version = "0.1.0"
+description = ""
+authors = ["BU-Marina <vorona.2003.bu@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^6.0.3"
+djangorestframework = "^3.16.1"
+django-redis = "^6.0.0"
+inflection = "^0.5.1"
+uritemplate = "^4.2.0"
+drf-spectacular = "^0.29.0"
+psycopg2-binary = "^2.9.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
